@@ -107,7 +107,7 @@ h2 {
 }
 .service-item2 {
     position: absolute;
-    left: 315px;
+    left: 350px;
     width: 180px;
     background-color: #048000;
     color: white;
@@ -115,7 +115,7 @@ h2 {
 }
 .service-item3 {
     position: absolute;
-    left: 510px;
+    right: 350px;
     width: 180px;
     background-color: #048000;
     color: white;
@@ -123,7 +123,7 @@ h2 {
 }
 .service-item4 {
     position: absolute;
-    left: 705px;
+    right: 120px;
     width: 180px;
     background-color: #048000;
     color: white;
@@ -158,4 +158,96 @@ h2 {
 }
 .list-who-right {
     right: 30px;
+}
+.our-team {
+    padding-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #dfeed1;
+}
+.our-team p {
+    margin-bottom: 50px;
+}
+.box-team {
+    position: relative;
+    height: 400px;
+}
+.person-1 {
+    position: absolute;
+    width: 140px;
+    left: 200px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.person-2 {
+    position: absolute;
+    width: 140px;
+    left: 380px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.person-3 {
+    position:absolute;
+    width: 140px;
+    right: 380px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.person-4 {
+    position:absolute;
+    width: 140px;
+    right: 200px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.box-team img {
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.box-team p {
+    margin: 10px;
+}
+.box-prove {
+    position: relative;
+    top: -50px;
+    margin-bottom: 200px;
+}
+.prove-1 {
+    position: absolute;
+    background-color: #52a401;
+    padding: 20px 20px;
+    border-radius: 20px;
+    left: 200px;
+    width: 130px;
+}
+.prove-2 {
+    position: absolute;
+    position: absolute;
+    background-color: #52a401;
+    padding: 20px 20px;
+    border-radius: 20px;
+    left: 460px;
+    width: 130px;
+}
+.prove-3 {
+    position: absolute;
+    position: absolute;
+    background-color: #52a401;
+    padding: 20px 20px;
+    border-radius: 20px;
+    right: 200px;
+    width: 130px;
 }
