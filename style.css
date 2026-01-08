@@ -1,3 +1,7 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .navbar {
     position: relative;
     height: 50px;
@@ -33,7 +37,7 @@ nav li {
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 nav li :hover {
     font-weight: 700;
@@ -52,6 +56,16 @@ nav li a {
     left: 0;
     width: 45%;
 }
+.banner-left a {
+    text-decoration: none;
+    color: white;
+    background-color: #048000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.banner-left p {
+    margin-bottom: 50px;
+}
 .banner-right {
     position: absolute;
     right: 0;
@@ -61,12 +75,16 @@ nav li a {
 h1 {
     font-size: 60px;
 }
+h2 {
+    font-size: 38px;
+}
 .our-services {
-    background-color: #066b00;
+    background-color: #084205;
     padding-top: 50px;
+    padding-bottom: 20px;
     color: white;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .our-services-title {
     text-align: center;
@@ -83,31 +101,61 @@ h1 {
     position: absolute;
     left: 120px;
     width: 180px;
-    background-color: #11a00a;
+    background-color: #048000;
     color: white;
     border-radius: 10px;
 }
 .service-item2 {
     position: absolute;
-    left: 310px;
+    left: 315px;
     width: 180px;
-    background-color: #11a00a;
+    background-color: #048000;
     color: white;
     border-radius: 10px;
 }
 .service-item3 {
     position: absolute;
-    left: 500px;
+    left: 510px;
     width: 180px;
-    background-color: #11a00a;
+    background-color: #048000;
     color: white;
     border-radius: 10px;
 }
 .service-item4 {
     position: absolute;
-    left: 690px;
+    left: 705px;
     width: 180px;
-    background-color: #11a00a;
+    background-color: #048000;
     color: white;
     border-radius: 10px;
+}
+.who-we {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.who-left {
+    position: absolute;
+    left: 0;
+}
+.who-right {
+    position: absolute;
+    right: 100px;
+}
+.div-list-who {
+    position: relative;
+}
+.div-list-who ul {
+    position: absolute;
+    list-style-type: none;
+}
+.div-list-who li::before {
+    content: '✔';
+    margin-right: 10px;
+}
+.list-who-left {
+    left: 0;
+}
+.list-who-right {
+    right: 30px;
 }
